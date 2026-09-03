@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-mono-data {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  .glass-panel {
+    background: rgba(44, 62, 80, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(108, 215, 212, 0.2);
+  }
+  
+  .data-grid {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 15px rgba(85, 192, 230, 0.15);
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(44, 62, 80, 0.2); 
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(108, 215, 212, 0.3); 
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(108, 215, 212, 0.5); 
+  }
+}
+

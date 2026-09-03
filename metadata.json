@@ -1,0 +1,8 @@
+{
+  "name": "Remix FloatChat",
+  "description": "AI-Powered Conversational Interface for ARGO Ocean Data Discovery",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
